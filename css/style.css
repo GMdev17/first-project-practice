@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.container {
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+}
+.sub-container {
+    display: flex;
+}
+
+.section1, .section2, .section3 {
+    width: 33%;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: rgb(155, 150, 150);
+}
+
+
+
+.heading1, .heading2, .heading3 {
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 4px;
+    width: 100px;
+    text-align: center;
+}
+.heading1 {
+    background-color: palevioletred;
+}
+
+.heading2 {
+    background-color: lightskyblue;
+}
+.heading3 {
+    background-color: red;
+}
+
+.text {
+    padding: 15px;
+    clear: right;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .container{
+        display: initial;
+    }
+    .section1, .section2 {
+        width: 100%;
+        clear: right;
+    }
+    .section3 {
+        width: 100%;
+        /* clear: left; */
+        /* background-color: red; */
+    }
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        display: initial;
+    }
+}
