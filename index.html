@@ -2,53 +2,138 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width-device-width, initial-scale-1">
-    <title>First-practice-project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
-    <h2>Our Menu</h2>
+    <header>
+      <nav
+        id="header-nav"
+        class="navbar navbar-expand-lg navbar-light bg-secondary"
+      >
+        <div class="container">
+          <div id="heading" class="navbar-brand">
+            <a href="index.html"><h1 class="text-white">Food LLC</h1></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarText"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offset-2 collapse navbar-collapse" id="navbarText">
+            <ul id="nav-list" class="nav navbar-nav offset-3">
+              <li>
+                <span class="text-white mr-5">Chicken</span>
+              </li>
+              <li>
+                <span class="text-white mr-5">Beef</span>
+              </li>
+              <li>
+                <span class="text-white mr-5">Sushi</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <div class="container">
-      <div class="section1">
-        <div class="heading1">
-          <h5 class="head1">Chicken</h5>
-        </div>
-        <div class="text">
+    <div id="main-container" class="container">
+      <h1 class="text-center mt-4">Our Menu</h1>
+        <div class="row mt-4">
+          <div
+            id="chicken"
+            class="col-lg-4 col-md-4 col-sm-6 col-12"
+          >
+          <div class="card  bg-secondary">
+            <h2 class="text-center text-white">Sushi</h2>
           <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea soluta
-          quasi saepe sit quod alias dolorem perspiciatis dolores vel assumenda
-          laborum quis voluptatibus labore obcaecati, nobis sed recusandae
-          veritatis esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti ipsa expedita in, totam alias fugit nulla officia veritatis culpa nesciunt cum dolores, repellat, deleniti facere nam earum atque? At! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam recusandae doloremque dignissimos consectetur, sed officiis! Eligendi consequuntur ad ducimus hic quam commodi quibusdam facilis consequatur velit. Atque, beatae quis.
-        </p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            assumenda vel maxime consequuntur non ipsum modi corporis animi
+            quisquam, quod culpa ut laudantium odit voluptas inventore veniam
+            architecto recusandae minus! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ex sit quisquam quae natus, amet
+            soluta nihil, dolore iste animi odio ipsam quis perspiciatis vero
+            illo delectus voluptas eum nisi! Dolore. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Esse suscipit ducimus amet
+            ipsam libero ipsa necessitatibus nulla dignissimos, eum
+            accusantium neque, ad sed sequi perferendis. Laudantium possimus
+            enim ratione porro! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Veritatis minus natus tenetur impedit
+            repellendus, vitae consequatur porro nobis explicabo voluptate
+            fuga sit quia deleniti sunt suscipit magnam dicta molestiae ipsa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            dolore labore, architecto asperiores, nisi ut mollitia expedita
+            unde, est odit necessitatibus. Impedit, magni pariatur mollitia
+            repudiandae cupiditate voluptatibus eligendi earum.
+          </p>
         </div>
+          </div>
+          <div id="beef" class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="card bg-danger">
+                <h2 class="text-center text-white">Sushi</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                assumenda vel maxime consequuntur non ipsum modi corporis animi
+                quisquam, quod culpa ut laudantium odit voluptas inventore veniam
+                architecto recusandae minus! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ex sit quisquam quae natus, amet
+                soluta nihil, dolore iste animi odio ipsam quis perspiciatis vero
+                illo delectus voluptas eum nisi! Dolore. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Esse suscipit ducimus amet
+                ipsam libero ipsa necessitatibus nulla dignissimos, eum
+                accusantium neque, ad sed sequi perferendis. Laudantium possimus
+                enim ratione porro! Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Veritatis minus natus tenetur impedit
+                repellendus, vitae consequatur porro nobis explicabo voluptate
+                fuga sit quia deleniti sunt suscipit magnam dicta molestiae ipsa.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                dolore labore, architecto asperiores, nisi ut mollitia expedita
+                unde, est odit necessitatibus. Impedit, magni pariatur mollitia
+                repudiandae cupiditate voluptatibus eligendi earum.
+              </p>
+            </div>
+          </div>
+          <div
+            id="sushi"
+            class="col-lg-4 col-md-4 col-sm-12 col-12 "
+          >
+          <div class="card bg-success">
+              <h2 class="text-center text-white">Sushi</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              assumenda vel maxime consequuntur non ipsum modi corporis animi
+              quisquam, quod culpa ut laudantium odit voluptas inventore veniam
+              architecto recusandae minus! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ex sit quisquam quae natus, amet
+              soluta nihil, dolore iste animi odio ipsam quis perspiciatis vero
+              illo delectus voluptas eum nisi! Dolore. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Esse suscipit ducimus amet
+              ipsam libero ipsa necessitatibus nulla dignissimos, eum
+              accusantium neque, ad sed sequi perferendis. Laudantium possimus
+              enim ratione porro! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Veritatis minus natus tenetur impedit
+              repellendus, vitae consequatur porro nobis explicabo voluptate
+              fuga sit quia deleniti sunt suscipit magnam dicta molestiae ipsa.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolore labore, architecto asperiores, nisi ut mollitia expedita
+              unde, est odit necessitatibus. Impedit, magni pariatur mollitia
+              repudiandae cupiditate voluptatibus eligendi earum.
+            </p>
+          </div>
+            
+          </div>
         </div>
-      <div class="section2">
-        <div class="heading2">
-          <h5 class="head2">Beef</h5>
-        </div>
-        <div class="text">
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea soluta
-          quasi saepe sit quod alias dolorem perspiciatis dolores vel assumenda
-          laborum quis voluptatibus labore obcaecati, nobis sed recusandae
-          veritatis esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad possimus accusamus adipisci mollitia nihil aperiam omnis asperiores sed ex consequatur autem recusandae voluptate tempore, modi temporibus eius quas magnam assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente labore repellendus, culpa adipisci optio. Praesentium, nulla quam sint expedita porro esse rem ex dolorem in iste placeat eum maxime.
-        </p>
-        </div>
-      </div>
-      <div class="section3">
-        <div class="heading3">
-          <h5 class="head3">Sushi</h5>
-        </div>
-        <div class="text">
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea soluta
-          quasi saepe sit quod alias dolorem perspiciatis dolores vel assumenda
-          laborum quis voluptatibus labore obcaecati, nobis sed recusandae
-          veritatis esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quae quos at consequuntur hic, est asperiores ipsam eius recusandae temporibus quibusdam fuga, nam cupiditate? Minus reprehenderit deserunt voluptates in recusandae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptatem reprehenderit, asperiores architecto minima deserunt eos et dolorem illum repudiandae assumenda harum dolores sed, omnis praesentium necessitatibus distinctio error deleniti!
-        </p>
-        </div>
-      </div>
     </div>
   </body>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </html>
